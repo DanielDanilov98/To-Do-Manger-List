@@ -12,7 +12,7 @@ class ToDoList {
   }
 
   addTask(task) {
-    this.tasks.push({ text: task, completed: false });
+    this.tasks.push({ text: task });
   }
 
   removeTask(task) {
